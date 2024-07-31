@@ -1,0 +1,9 @@
+package template
+
+import "github.com/webdevfuel/go-templ-button-component/template/layout"
+
+templ Hello(name string) {
+	@layout.Base() {
+		<div class="text-2xl">Hello, { name }!</div>
+	}
+}
