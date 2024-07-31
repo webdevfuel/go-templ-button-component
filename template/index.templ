@@ -1,0 +1,54 @@
+package template
+
+import (
+	"github.com/webdevfuel/go-templ-button-component/template/component"
+	"github.com/webdevfuel/go-templ-button-component/template/layout"
+)
+
+templ Index() {
+	@layout.Base() {
+		<div class="max-w-screen-md mx-auto grid grid-cols-2 gap-8 justify-items-center">
+			@component.NewButton() {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonColor(component.ButtonColorSecondary),
+			) {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonSize(component.ButtonSizeSm),
+			) {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonSize(component.ButtonSizeSm),
+				component.WithButtonColor(component.ButtonColorSecondary),
+			) {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonSize(component.ButtonSizeLg),
+			) {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonSize(component.ButtonSizeLg),
+				component.WithButtonColor(component.ButtonColorSecondary),
+			) {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonDisabled(true),
+			) {
+				Click me
+			}
+			@component.NewButton(
+				component.WithButtonColor(component.ButtonColorSecondary),
+				component.WithButtonDisabled(true),
+			) {
+				Click me
+			}
+		</div>
+	}
+}
