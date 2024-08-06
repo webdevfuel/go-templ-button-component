@@ -7,13 +7,20 @@ Before running the project, make sure you have [air](https://github.com/air-vers
 
 ## Set up project
 
-### Clone
+### Clone repository
 
 ```bash
 git clone https://github.com/webdevfuel/go-templ-button-component
 ```
 
-### Run
+### Install node packages
+
+```bash
+npm install
+
+```
+
+### Run the program
 
 To run the program, use the `air` executable, which is configured in the `.air.toml` file to run tailwindcss, templ and the go server.
 
