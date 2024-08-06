@@ -25,6 +25,5 @@ npm install
 To run the program, use the `air` executable, which is configured in the `.air.toml` file to run tailwindcss, templ and the go server.
 
 ```bash
-cd go-templ-button-component
 air
 ```
