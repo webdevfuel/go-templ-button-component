@@ -2,7 +2,7 @@
 
 ## Pre-requesites
 
-Before running the project, make sure you have [air](https://github.com/air-verse/air) and [node](https://github.com/nvm-sh/nvm) installed on your local machine.
+Before running the project, make sure you have [air](https://github.com/air-verse/air), [node](https://github.com/nvm-sh/nvm) and [templ](https://templ.guide/quick-start/installation) installed on your local machine.
 
 
 ## Set up project
